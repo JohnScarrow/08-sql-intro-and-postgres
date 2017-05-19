@@ -14,7 +14,7 @@ const app = express();
 // TODO: Complete the connection string for the url that will connect to your local postgres database
 // Windows and Linux users; You should have retained the user/pw from the pre-work for this course.
 // Your url may require that it's composed of additional information including user and password
-const conString = 'postgres://postgres:1234@localhost:4000/kilovolt';
+const conString = 'postgres://postgres:1234@localhost:5432/postgres';
 // const conString = 'postgres://localhost:4000';
 
 // TODO: Our pg module has a Client constructor that accepts one argument: the conString we just defined.
